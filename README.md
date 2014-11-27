@@ -22,11 +22,13 @@ với module là ```Readline```.
   khi gọi lệnh thoát app. Ví dụ cho loại này là pry, rails console. REPL là đọc dòng lệnh, thực hiện, in ra màn hình
   và lặp lại việc đó.
   
- Về bản chất thì REPL app là Single-line-shell app và thêm vòng loop. Một single-line-shell app dễ dàng thành REPL app
-bằng việc thêm một vòng loop như ``` while(true) end```.
+ Về bản chất thì REPL app là Single-line-shell app và thêm vòng loop. Một single-line-shell app dễ dàng thành REPL app với việc thêm một vòng loop như ``` while(true) end```.
 
 3. Công cụ hỗ trợ tạo CLI app
 
- Đối với single-line-shell app thì có thể sử dụng gem thor. Source code và hướng dẫn sử dụng cho Thor ở link github: https://github.com/erikhuda/thor.
- Đổi với REPL app thì có thể sử dụng một module được tích hợp vào ruby là ``` readline```
+ Đối với single-line-shell app thì có thể sử dụng gem thor. Gem thor khá là dễ dùng nên bạn có thể đọc source code và hướng dẫn sử dụng cho Thor ở link github: https://github.com/erikhuda/thor. 
+ 
+ Đổi với REPL app thì có thể sử dụng một module được tích hợp vào ruby là ``` Readline```. Document cho Readline:
+ http://ruby-doc.org/stdlib-2.1.1/libdoc/readline/rdoc/Readline.html. Dưới đây sẽ là phần hướng dẫn sử dụng cho Readline và app đơn giản kèm theo.
+ 
 
