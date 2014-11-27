@@ -3,9 +3,10 @@ cli-app
 
 CLI-APP-guide
 
-Bài viết này sẽ hướng dẫn về CLI app. Thế nào là một CLI app và cách tạo một CLI app bằng ngôn ngữ Ruby.
+  Bài viết này sẽ hướng dẫn về CLI app. Thế nào là một CLI app và cách tạo một CLI app bằng ngôn ngữ Ruby 
+với module là ```Readline```.
 
-1. CLI app là gì
+1. CLI app là gì?
 
  CLI app là viết tắt của ```command-line-interface application```, hiểu một cách đơn giản là một app mà 
  thao tác bằng dòng lệnh trên terminal hoặc cmd. Với lập trình viên thì một CLI app mà chúng ta thường làm
@@ -24,4 +25,8 @@ Bài viết này sẽ hướng dẫn về CLI app. Thế nào là một CLI app 
  Về bản chất thì REPL app là Single-line-shell app và thêm vòng loop. Một single-line-shell app dễ dàng thành REPL app
 bằng việc thêm một vòng loop như ``` while(true) end```.
 
+3. Công cụ hỗ trợ tạo CLI app
+
+ Đối với single-line-shell app thì có thể sử dụng gem thor. Source code và hướng dẫn sử dụng cho Thor ở link github: https://github.com/erikhuda/thor.
+ Đổi với REPL app thì có thể sử dụng một module được tích hợp vào ruby là ``` readline```
 
