@@ -94,7 +94,7 @@ với module là ```Readline```.
   gem install omniauth
   gem install omniauth-facebook
  ```
-Chạy app bằng lệnh ``` ruby cli-app.rb```
+Chạy app bằng lệnh ``` ruby cli-fb.rb```
 Các lệnh trong app ( gõ help để lấy được các lệnh trong app):
  ```
  newest_feed: Lấy feed mới nhất
