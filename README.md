@@ -86,8 +86,9 @@ với module là ```Readline```.
  
 5. Demo app
 
- Trên đây là demo app về sử dụng Readline trong Ruby. App có chức năng là để show feed hay là post status, post picture lên Facebook. 
- Để chạy app thì cần có các gem sau 
+ Dưới đây là demo app về sử dụng Readline trong Ruby. App có chức năng là để show feed hay là post status, post picture lên Facebook. 
+ https://github.com/linuxhjkaru/cli-app/blob/master/cli-fb.rb
+ Để chạy app thì cần có các gem sau:
  ```
   gem install koala --pre
   gem install omniauth
