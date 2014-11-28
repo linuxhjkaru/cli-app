@@ -3,7 +3,7 @@ require 'koala'
 require 'omniauth'
 require 'omniauth-facebook'
 
-oauth_access_token = "CAALlHK7WhCEBACmhpXbSKjZAySCAKromCO5EfglcmfOEnCpSbUrZBhLpuHLpnWZBFvdRnlMFiiZBeD7U95A05zWA7andAkRyOcNlUcwl3vsI6tE6ZBenbZC7jTUt8hD1noWtZAgLMJmsacmnnuwEUv9thxMMLu5rQmYYk84ZAXN00UPgfAoBS96B3oWtnT6J6sIj8Oebu0utcm4HKSlcRT2SErwfABYJyeUZD"
+oauth_access_token = "CAALlHK7WhCEBAHoKieO5jmhNXSrBFnfuZBkY14VZCTvhtSoTcXgDGp5bFbl8zbrqh1JDFspxZBiAeglXLGMoijgtrXSpCd7ndgsr2PbhzJYvYXAPFl80Sz2ZBpnnTnJruvEUShiCUbkJpaG0SrjBSkRxzyaMeyxbWZBbvCFZBZCm3pnrZBe9xEwu9mdbLcJqWOGAzcFNe2GZAamt9L95kzzl5FJKPHQnJ42MZD"
 @graph = Koala::Facebook::API.new(oauth_access_token)
 
 @feed_length = 0
@@ -82,8 +82,8 @@ def help
   puts 'newest_feed:  Get newest feed'
   puts 'near_feed: Get 5 newest feed'
   puts 'history: Show history command'
-  puts 'post_picture url_link message : Post picture with message to your wall'
-  puts 'post_status message : Post message to your wall'
+  puts 'post_picture url_link message : Post picture with message to your wall example: post_picture http://yacep.thangtd.com/img/emoticons/tat.jpg testapp '
+  puts 'post_status message : Post message to your wall example: post_status testappppppp'
   puts 'next_feed: Get 5 next newest feed'
 end
 
