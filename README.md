@@ -95,11 +95,11 @@ với module là ```Readline```.
  ```
 Chạy app bằng lệnh ``` ruby cli-app.rb```
 Các lệnh trong app ( gõ help để lấy được các lệnh trong app):
-```
-newest_feed: Lấy feed mới nhất
-near_feed: Lấy 5 feed mới nhất
-post_status message : Post message lên fb
-help: hiển thị các lệnh
-history: show lịch sử các lệnh
-post_picture link_url_picture message: Post picture kèm message lên fb
-```
+ ```
+ newest_feed: Lấy feed mới nhất
+ near_feed: Lấy 5 feed mới nhất
+ post_status message : Post message lên fb
+ help: hiển thị các lệnh
+ history: show lịch sử các lệnh
+ post_picture link_url_picture message: Post picture kèm message lên fb
+ ```
