@@ -81,7 +81,7 @@ với module là ```Readline```.
  Readline.completion_proc = comp
  ```
  Vì đã tích hợp sẵn GNU Readline của Linux nên là khi ấn Up-key thì sẽ hiện lại các lệnh gần đây nhất hoặc ấn Ctrl + D thì sẽ thoát app.
- Trên đây là những hướng dẫn cơ bản để có một Command-line-inteface app. Và các chức năng cơ bản một CLI app. Để tìm hiểm thêm về Readling thì các bạn có thể tìm đọc docs cho Readline:
+ Trên đây là những hướng dẫn cơ bản để có một Command-line-inteface app và các chức năng cơ bản một CLI app. Để tìm hiểm thêm về Readline thì các bạn có thể tìm đọc docs cho Readline:
  http://ruby-doc.org/stdlib-2.1.1/libdoc/readline/rdoc/Readline.html. 
  
 5. Demo app
